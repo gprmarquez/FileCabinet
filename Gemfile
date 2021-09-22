@@ -28,6 +28,14 @@ gem 'jbuilder', '~> 2.7'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
+gem 'haml', '~> 5.2', '>= 5.2.2'
+# Haml (HTML Abstraction Markup Language) is a layer on top of HTML or XML
+gem 'simple_form', '~> 5.1'
+# Forms made easy!
+
+gem 'devise', '~> 4.8'
+# Flexible authentication solution for Rails with Warden
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
